@@ -1,0 +1,149 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#f7f1eb]">
+
+    <!-- Navbar -->
+    <nav class="bg-[#e9dccf] px-10 py-4 flex justify-between items-center">
+        <h1 class="text-4xl font-bold cursor-pointer hover:text-orange-900">Coffee</h1>
+
+        <ul class="hidden md:flex gap-8 font-medium ">
+            <li class="hover:scale-105 duration-300 hover:text-orange-900 hover: text-xl"><a href="">Home</a></li>
+            <li class="hover:scale-105 duration-300 hover:text-orange-900 hover: text-xl"><a href="">Menu</a></li>
+            <li class="hover:scale-105 duration-300 hover:text-orange-900 hover: text-xl"><a href="">Our Story</a></li>
+            <li class="hover:scale-105 duration-300 hover:text-orange-900 hover: text-xl"><a href="">Location</a></li>
+            <li class="hover:scale-105 duration-300 hover:text-orange-900 hover: text-xl"><a href="">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-[600px] bg-cover bg-center"style="background-image:url('https://thumbs.dreamstime.com/b/aesthetic-coffee-cup-latte-art-textured-background-surrounded-beans-fabric-perfect-cafe-themes-330498059.jpg');">
+
+        <div class="absolute inset-0 bg-black/40"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto h-full flex items-center px-10">
+            <div class="text-white max-w-lg">
+                <h1 class="text-6xl font-bold mb-5">Savor the Perfect Brew!</h1>
+
+                <p class="mb-7 text-gray-200"> Fresh roasted coffee crafted with passion.Experience the rich aroma and unforgettable taste.</p>
+
+                <div class="flex gap-4">
+                    <button class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:text-white hover:bg-amber-950 ">Explore</button>
+                    <button class="bg-amber-700 px-6 py-3 rounded-full font-semibold hover:bg-amber-950"> Order Now</button>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-16 px-10">
+    <h2 class="text-5xl font-bold text-center mb-12 text-orange-950">Features</h2>
+
+    <div class="grid md:grid-cols-4 gap-8">
+
+        <div class="text-center">
+            <div class="w-16 h-16 mx-auto rounded-full bg-amber-700">
+                <i class="fa-solid fa-mug-hot mt-3 text-2xl" style="color: rgb(69, 1, 1);"></i>
+            </div>
+    <h3 class="font-bold mt-4">Espresso</h3>
+    <p class="text-gray-500 mt-2">Rich and bold coffee flavor.</p>
+        </div>
+
+        <div class="text-center">
+            <div class="w-16 h-16 mx-auto rounded-full bg-amber-700">
+                <i class="fa-solid fa-mug-hot mt-3 text-2xl" style="color: rgb(69, 1, 1);;"></i>
+            </div>
+    <h3 class="font-bold mt-4">Latte</h3>
+    <p class="text-gray-500 mt-2">Creamy milk blended perfectly.</p>
+        </div>
+
+        <div class="text-center">
+            <div class="w-16 h-16 mx-auto rounded-full bg-amber-700">
+                <i class="fa-solid fa-mug-hot mt-3 text-2xl" style="color: rgb(69, 1, 1);;"></i>
+            </div>
+    <h3 class="font-bold mt-4">Cappuccino</h3>
+    <p class="text-gray-500 mt-2">Smooth foam and rich taste.</p>
+        </div>
+
+        <div class="text-center">
+            <div class="w-16 h-16 mx-auto rounded-full bg-amber-700">
+                <i class="fa-solid fa-mug-hot mt-3 text-2xl" style="color: rgb(69, 1, 1);;"></i>
+            </div>
+    <h3 class="font-bold mt-4">Cold Brew</h3>
+    <p class="text-gray-500 mt-2">Refreshing chilled coffee.</p>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="grid md:grid-cols-2">
+
+        <div class="bg-[#4f2e1d] text-white p-12 flex flex-col justify-center h-[500px]">
+            <h2 class="text-6xl font-bold mb-4"> Why Choose Us? </h2>
+
+            <p class="mb-6">premium beans, expert roasting,and unforgettable coffee moments.</p>
+            <button class="bg-white text-black px-6 py-3 rounded-full w-fit hover:bg-amber-700 hover:text-white">Learn More</button>
+        </div>
+
+        <div>
+            <img src="https://www.estadao.com.br/resizer/v2/R6AEB6RQFJCCHJI32MBIK2MAVY.jpeg?quality=80&auth=44b161129242e250877e895282035814f6710d564f2e24df704ec014d9394e03&width=1075&height=527&smart=true" class="w-full h-[500px] object-cover" alt="">
+        </div>
+
+    </section>
+
+    <!-- Special Offer -->
+    <section class="bg-[#e9dccf] py-16 text-center">
+        <h3 class="text-lg text-gray-600"> Special Coffee Offer </h3>
+        <h2 class="text-5xl font-bold my-4"> 20% OFF </h2>
+        <p class="text-gray-600 mb-6"> Available from 8 AM to 10 AM</p>
+
+        <button class="bg-[#4f2e1d] text-white px-8 py-3 rounded-full hover:bg-amber-900"> Grab Offer </button>
+    </section>
+
+    <!-- Gallery -->
+    <section class="py-16 px-10">
+        <h2 class="text-5xl font-bold text-center mb-10 text-orange-950"> Visit Us Today </h2>
+
+        <div class="grid md:grid-cols-4 gap-6">
+
+            <img src="https://i.pinimg.com/474x/e7/cf/6d/e7cf6df7c48ee38d981f8aeb5020db34.jpg" class="rounded-xl hover:scale-105 duration-300">
+
+            <img src="https://i.pinimg.com/736x/87/c0/1a/87c01a0ac6b5cdc08f23783a2916042a.jpg" class="rounded-xl hover:scale-105 duration-300">
+
+            <img src="https://cdn.wallpapersafari.com/25/71/sYqLWQ.jpg" class="rounded-xl hover:scale-105 duration-300">
+
+            <img src="https://i.pinimg.com/736x/96/05/6d/96056d78182f73abc24c67897e8c67ae.jpg" class="rounded-xl hover:scale-105 duration-300">
+
+        </div>
+    </section>
+
+    <!-- Footer Banner -->
+    <section class="h-[350px] bg-cover bg-center flex items-center" style="background-image:url('https://images.unsplash.com/photo-1459755486867-b55449bb39ff?w=1600')">
+
+        <div class="bg-black/50 w-full h-full flex items-center">
+            <div class="max-w-7xl mx-auto px-10 text-white">
+                <h2 class="text-5xl font-bold"> Enjoy Your Coffee Time </h2>
+
+                <p class="mt-4 max-w-lg">Taste the finest handcrafted coffee made just for you. </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#4f2e1d] text-white py-8">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-3">Coffee House</h2>
+
+            <p>© 2026 Coffee House. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
